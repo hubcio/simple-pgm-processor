@@ -46,6 +46,6 @@ void print_menu(void);
 
 int16_t             get_int(int16_t min, int16_t max, char *description);
 void                get_string(char *buf, char *description);
-void                get_pgm_file (char filename[], struct pgm_image *img);
+bool                get_pgm_file (char filename[], struct pgm_image *img);
 struct pgm_image *  init_image();
 void                delete_image(struct pgm_image * img);
