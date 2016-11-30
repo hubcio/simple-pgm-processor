@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(simple_pgm_processor)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c11 -Werror -Wall")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c11 -Werror -Wall -O0")
 
 set(SOURCE_FILES
         main.c
